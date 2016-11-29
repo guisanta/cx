@@ -1,7 +1,7 @@
 import {Widget, VDOM} from 'cx/ui/Widget';
-import React from 'react';
 
-class InputWithButton extends React.Component { 
+
+class InputWithButton extends VDOM.Component {
     constructor(props){
         super(props);
         this.state = { copied: false };
