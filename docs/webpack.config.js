@@ -11,10 +11,10 @@ var common = {
     resolve: {
         alias: {
             cx: path.resolve(path.join(__dirname, '../packages/cx-core/src')),
-            'cx-react': path.resolve(path.join(__dirname, '../packages/cx-react')),
-            //'cx-react': path.resolve(path.join(__dirname, '../packages/cx-inferno')),
+            //'cx-react': path.resolve(path.join(__dirname, '../packages/cx-react')),
+            'cx-react': path.resolve(path.join(__dirname, '../packages/cx-inferno')),
             //'cx-react': path.resolve(path.join(__dirname, '../packages/cx-preact')),
-            'cx-react-css-transition-group': path.resolve(path.join(__dirname, '../packages/cx-react-css-transition-group')),
+            //'cx-react-css-transition-group': path.resolve(path.join(__dirname, '../packages/cx-react-css-transition-group')),
             docs: __dirname
         }
     },

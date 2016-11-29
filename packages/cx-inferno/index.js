@@ -1,8 +1,8 @@
-import * as React from 'inferno/dist/inferno-compat';
-import * as Inferno from 'inferno';
+import * as Inferno from 'inferno/dist/inferno-compat';
+//import * as Inferno from 'inferno';
 
-var vdom = React;
-vdom.DOM = React;
+var vdom = Inferno;
+vdom.DOM = Inferno;
 // vdom.createStaticVElement = Inferno.createStaticVElement;
 // vdom.createOptBlueprint = Inferno.createOptBlueprint;
 // vdom.createVComponent = Inferno.createVComponent;
