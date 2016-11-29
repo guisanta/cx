@@ -45,8 +45,8 @@ module.exports = function(name, themePath, port) {
          filename: "[name].js"
       },
       externals: {
-         "react": "React",
-         "react-dom": "ReactDOM"
+         "inferno-compat": "React",
+         "inferno-compat": "ReactDOM"
       },
       plugins: [
          new HtmlWebpackPlugin({
@@ -78,7 +78,7 @@ module.exports = function(name, themePath, port) {
          "if-loader": 'production',
 
          plugins: [
-            new webpack.optimize.UglifyJsPlugin(),
+            //new webpack.optimize.UglifyJsPlugin(),
             new webpack.DefinePlugin({
                'process.env.NODE_ENV': JSON.stringify('production')
             }),
