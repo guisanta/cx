@@ -13,7 +13,8 @@ module.exports = function(name, themePath, port) {
       resolve: {
          alias: {
             cx: path.resolve(path.join(themePath, '../../packages/cx-core/src')),
-            'cx-react': path.resolve(path.join(themePath, '../../packages/cx-react')),
+            //'cx-react': path.resolve(path.join(themePath, '../../packages/cx-react')),
+            'cx-react': path.resolve(path.join(themePath, '../../packages/cx-inferno')),
             'cx-theme-dark': path.resolve(path.join(themePath, '../../packages/cx-theme-dark/src/')),
             'cx-theme-frost': path.resolve(path.join(themePath, '../../packages/cx-theme-frost/src/')),
             theme: themePath,
