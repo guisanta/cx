@@ -2458,20 +2458,20 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-compat@1.0.0-beta20:
-  version "1.0.0-beta20"
-  resolved "https://registry.yarnpkg.com/inferno-compat/-/inferno-compat-1.0.0-beta20.tgz#b8258bff4f05f89f33572fc536eadb3b86b6f935"
+inferno-compat@1.0.0-beta21:
+  version "1.0.0-beta21"
+  resolved "https://registry.yarnpkg.com/inferno-compat/-/inferno-compat-1.0.0-beta21.tgz#82aa3e4ebae06bbfa22e3c71f1390bf67dca8c16"
   dependencies:
-    inferno "1.0.0-beta20"
+    inferno "1.0.0-beta21"
     inferno-transition-group "^1.1.0"
 
 inferno-transition-group@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/inferno-transition-group/-/inferno-transition-group-1.1.0.tgz#7f7cb800530e7b3d1b6d3867c87a3d6ec50aa003"
 
-inferno@1.0.0-beta20:
-  version "1.0.0-beta20"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-1.0.0-beta20.tgz#c6a3c26d7dc484b4711567a3795d219fa1e394c4"
+inferno@1.0.0-beta21:
+  version "1.0.0-beta21"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-1.0.0-beta21.tgz#e8832c03b543a86243d8c59587e3942af3c25bfa"
 
 inflight@^1.0.4:
   version "1.0.5"
