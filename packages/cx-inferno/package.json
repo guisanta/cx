@@ -8,6 +8,6 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "homepage": "https://github.com/codaxy/cx",
   "dependencies": {
-    "inferno-compat": "^1.0.0-beta20"
+    "inferno-compat": "^1.0.0-beta31"
   }
 }

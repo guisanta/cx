@@ -1521,8 +1521,8 @@ cx-cli:
 "cx-react@file:./packages/cx-react":
   version "16.8.4"
   dependencies:
-    react "^15.3.2"
-    react-dom "^15.3.2"
+    react "^15.4.1"
+    react-dom "^15.4.1"
 
 "cx-redux@file:./packages/cx-redux":
   version "16.11.0"
@@ -2458,20 +2458,21 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-compat@1.0.0-beta21:
-  version "1.0.0-beta21"
-  resolved "https://registry.yarnpkg.com/inferno-compat/-/inferno-compat-1.0.0-beta21.tgz#82aa3e4ebae06bbfa22e3c71f1390bf67dca8c16"
+inferno-compat@1.0.0-beta31:
+  version "1.0.0-beta31"
+  resolved "https://registry.yarnpkg.com/inferno-compat/-/inferno-compat-1.0.0-beta31.tgz#169bc2e42230b14887097eef748c661febbdffe4"
   dependencies:
-    inferno "1.0.0-beta21"
-    inferno-transition-group "^1.1.0"
+    inferno "1.0.0-beta31"
+    inferno-transition-group "1.1.0"
+    rc-css-transition-group "2.1.4"
 
-inferno-transition-group@^1.1.0:
+inferno-transition-group@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/inferno-transition-group/-/inferno-transition-group-1.1.0.tgz#7f7cb800530e7b3d1b6d3867c87a3d6ec50aa003"
 
-inferno@1.0.0-beta21:
-  version "1.0.0-beta21"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-1.0.0-beta21.tgz#e8832c03b543a86243d8c59587e3942af3c25bfa"
+inferno@1.0.0-beta31:
+  version "1.0.0-beta31"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-1.0.0-beta31.tgz#73875bba382c86b9387409c1a83ec97f82d84c9f"
 
 inflight@^1.0.4:
   version "1.0.5"
@@ -3711,6 +3712,10 @@ randombytes@^2.0.0, randombytes@^2.0.1:
 range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
+
+rc-css-transition-group@2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/rc-css-transition-group/-/rc-css-transition-group-2.1.4.tgz#3bb6cbf33033b9b452065a98fb24efe18405fc82"
 
 rc@~1.1.0:
   version "1.1.6"
