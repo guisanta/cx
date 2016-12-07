@@ -94,7 +94,7 @@ switch (process.env.npm_lifecycle_event) {
 
             plugins: [
                 new CleanWebpackPlugin(['dist']),
-                new webpack.optimize.UglifyJsPlugin(),
+                //new webpack.optimize.UglifyJsPlugin(),
                 new webpack.DefinePlugin({
                     'process.env.NODE_ENV': JSON.stringify('production')
                 }),
@@ -153,40 +153,6 @@ switch (process.env.npm_lifecycle_event) {
     //         }
     //     };
     //     break;
-
-            module: {
-                loaders: [{
-                    test: /\.scss$/,
-                    loaders: ["style", "css", "sass"]
-                }, {
-                    test: /\.css$/,
-                    loader: ["style", "css"]
-                }]
-            },
-
-            "if-loader": 'production',
-
-            plugins: [
-                //new webpack.optimize.UglifyJsPlugin(),
-                new webpack.DefinePlugin({
-                    'process.env.NODE_ENV': JSON.stringify('production')
-                }),
-                sass
-            ],
-            output: {
-                publicPath: '/'
-            },
-            //devtool: 'eval',
-            devServer: {
-                contentBase: '/docs',
-                hot: true,
-                port: 8080,
-                noInfo: false,
-                inline: true,
-                historyApiFallback: true
-            }
-        };
-        break;
 
     default:
         specific = {
