@@ -1,4 +1,4 @@
-import { HtmlElement, PureContainer, Repeater, Section, FlexRow } from 'cx/widgets';
+import { HtmlElement, PureContainer, Repeater, Section, FlexCol } from 'cx/widgets';
 import createLayout from 'shared/layout';
 
 const layout = createLayout('Home', [<cx>
@@ -6,10 +6,16 @@ const layout = createLayout('Home', [<cx>
 </cx>]);
 
 const themes = [{
+  name: 'Material',
+  url: 'material',
+  imgUrl: '~/img/material.png',
+  description: `This theme is based on Google's ground-breaking Material design principles. It closely follows their detailed specifications on colors, shapes, shadows and motion effects.
+                The best part is, you can easily choose one of the many predefined color schemes or define your own unique look.`
+},{
    name: 'Frost',
    url: 'frost',
    imgUrl: '~/img/frost.png',
-   description: "Winter inspired theme."
+   description: "Frost is another beautiful theme inspired by winter colors. It feauters minimalistic design, whose beauty lies in a lot of small eye pleasing details."
 }, {
    name: 'Dark',
    url: 'dark',
@@ -24,7 +30,7 @@ const themes = [{
 
 export default <cx>
    <PureContainer outerLayout={layout}>
-      <FlexRow pad="xlarge" spacing="xlarge" wrap justify="center" class="b-list">
+      <FlexCol pad="xlarge" spacing="xlarge" align="center" class="b-list">
          <Repeater records={themes} recordName="$theme">
             <Section mod="card" pad={false}>
                <a class="b-card" href:bind="$theme.url">
@@ -38,7 +44,7 @@ export default <cx>
                </a>
             </Section>
          </Repeater>
-      </FlexRow>
+      </FlexCol>
    </PureContainer>
 </cx>
 
